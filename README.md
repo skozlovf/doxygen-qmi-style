@@ -19,3 +19,8 @@ To use `qmi` style make the following changes in your Doxyfile:
 If you want to see `qmi` style in action then use the following links with examples:
 
 * [Qwt docs](http://skozlovf.github.com/doxygen-qmi-style/qwt)
+
+
+Some screenshots:
+
+![](http://skozlovf.github.com/doxygen-qmi-style/qwt_classes.png)
