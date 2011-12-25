@@ -23,4 +23,6 @@ If you want to see `qmi` style in action then use the following links with examp
 
 Some screenshots:
 
+![](http://skozlovf.github.com/doxygen-qmi-style/qwt_index.png)
 ![](http://skozlovf.github.com/doxygen-qmi-style/qwt_classes.png)
+![](http://skozlovf.github.com/doxygen-qmi-style/qwt_doc.png)
