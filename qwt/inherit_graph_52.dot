@@ -1,0 +1,9 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QwtTextLabel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_qwt_text_label.html",tooltip="A Widget which displays a QwtText."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="QwtLegendItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_qwt_legend_item.html",tooltip="A widget representing something on a QwtLegend()."];
+}

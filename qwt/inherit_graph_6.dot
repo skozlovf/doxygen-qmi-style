@@ -1,0 +1,9 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QwtCompassRose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_qwt_compass_rose.html",tooltip="Abstract base class for a compass rose."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="QwtSimpleCompassRose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_qwt_simple_compass_rose.html",tooltip="A simple rose for QwtCompass."];
+}
