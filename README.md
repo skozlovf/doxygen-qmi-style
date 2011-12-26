@@ -13,12 +13,17 @@ To use `qmi` style make the following changes in your Doxyfile:
     HTML_FOOTER = ${path_to_qmi}/footer.html
     HTML_STYLESHEET = ${path_to_qmi}/qmi.css
 
+**NOTE**:
+
+* If you use **_tree navigation panel_** then copy contents of the `navtree` dir to the documentation html dir.
+* If you use **_search_** feature then copy contents of the `search` dir to the `html/search`.
 
 # Examples
 
 If you want to see `qmi` style in action then use the following links with examples:
 
 * [Qwt docs](http://skozlovf.github.com/doxygen-qmi-style/qwt)
+* [libxml++ docs](http://skozlovf.github.com/doxygen-qmi-style/libxmlpp) (with tree navigation and search)
 
 
 ## Screenshots
