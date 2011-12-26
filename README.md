@@ -21,8 +21,16 @@ If you want to see `qmi` style in action then use the following links with examp
 * [Qwt docs](http://skozlovf.github.com/doxygen-qmi-style/qwt)
 
 
-Some screenshots:
+## Screenshots
 
-![](http://skozlovf.github.com/doxygen-qmi-style/qwt_index.png)
-![](http://skozlovf.github.com/doxygen-qmi-style/qwt_classes.png)
-![](http://skozlovf.github.com/doxygen-qmi-style/qwt_doc.png)
+* **Main page**:
+ 
+    ![](http://skozlovf.github.com/doxygen-qmi-style/shot1.png)
+  
+* **Index page**:
+
+    ![](http://skozlovf.github.com/doxygen-qmi-style/shot2.png)
+    
+* **Member description**:
+
+    ![](http://skozlovf.github.com/doxygen-qmi-style/shot3.png)
