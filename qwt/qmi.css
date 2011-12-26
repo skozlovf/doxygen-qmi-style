@@ -50,15 +50,14 @@ body, table, div, p, dl
 
 #projectbrief
 {
-  color: #575757;
-  font-size: 0.9em;
-  margin: 0 0 10px 0;
+  font-size: 120%; /** TODO: check size. */
+  margin: 0px;
   padding: 0px;
 }
 
 #projectnumber
 {
-  font-size: 0.5em;
+  font-size: 50%; /** TODO: check size. */
   margin: 0px;
   padding: 0px;
 }
@@ -122,10 +121,7 @@ div.center
 div.center img { border: 0px; }
 
 /* Link to reference (classes etc). */
-a.el { font-weight: bold; }
-
-/** Use normal font on the index page. */
-.qindex + table a.el { font-weight: normal; }
+/* a.el { font-weight: bold; } */
 /* a.elRef {} */
 
 /* Links in code section. */
@@ -255,12 +251,10 @@ span.legend {
         text-align: center;
 }
 
-/*
 h3.version {
         font-size: 90%;
         text-align: center;
 }
-*/
 
 div.qindex, div.navtab{
         /*background-color: #EBEFF6;
@@ -307,9 +301,9 @@ a.qindex {
 
 a.qindexHL {
         font-weight: bold;
-        background-color: #F6F6F6;
+        background-color: #9CAFD4;
         color: #ffffff;
-        border: 1px double #E6E6E6;
+        border: 1px double #869DCA;
 }
 
 .contents a.qindexHL:visited {
@@ -357,7 +351,7 @@ td.indexvalue {
 }
 
 tr.memlist {
-        background-color: #F6F6F6;
+        background-color: #EEF1F7;
 }
 
 p.formulaDsp {
@@ -448,7 +442,7 @@ td.tiny {
 .dirtab {
         padding: 4px;
         border-collapse: collapse;
-        border: 1px solid #E6E6E6;
+        border: 1px solid #A3B4D7;
 }
 
 th.dirtab {
@@ -477,11 +471,11 @@ table.memberdecls {
         padding: 0px 8px 4px 8px;
         color: #555;
 }
-/*
+
 .memItemLeft, .memItemRight, .memTemplParams {
-        border-top: 1px solid #C4CFE5;
+        /*border-top: 1px solid #C4CFE5;*/
 }
-*/
+
 .memItemLeft, .memTemplItemLeft {
         white-space: nowrap;
 }
@@ -509,8 +503,8 @@ table.memberdecls {
 }
 
 .memnav {
-        background-color: #F6F6F6;
-        border: 1px solid #E6E6E6;
+        background-color: #EBEFF6;
+        border: 1px solid #A3B4D7;
         text-align: center;
         margin: 2px;
         margin-right: 15px;
@@ -815,24 +809,29 @@ table.fieldtable {
 .navpath ul
 {
         font-size: 11px;
+        background-image:url('tab_b.png');
+        background-repeat:repeat-x;
         height:30px;
         line-height:30px;
-        border-top: 1px solid #C4C4C4;
+        color:#8AA0CC;
+        border:solid 1px #C2CDE4;
         overflow:hidden;
         margin:0px;
         padding:0px;
 }
 
-/** TODO: use image as marker. */
 .navpath li
 {
-        list-style-type:disc;
+        list-style-type:none;
         float:left;
-        padding-left:5px;
-        padding-right:5px;
-        margin-right: 25px;
+        padding-left:10px;
+        padding-right:15px;
+        background-image:url('bc_s.png');
+        background-repeat:no-repeat;
+        background-position:right;
+        color:#364D7C;
 }
-/*
+
 .navpath li.navelem a
 {
         height:32px;
@@ -843,7 +842,7 @@ table.fieldtable {
 
 .navpath li.navelem a:hover
 {
-  text-decoration: underline;
+        color:#6884BD;
 }
 
 .navpath li.footer
@@ -858,7 +857,7 @@ table.fieldtable {
         color:#364D7C;
         font-size: 8pt;
 }
-*/
+
 
 div.summary
 {
@@ -973,7 +972,7 @@ dl.bug
 
 div.zoom
 {
-        border: 1px solid #E6E6E6;
+        border: 1px solid #90A5CE;
 }
 
 dl.citelist {
