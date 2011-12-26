@@ -65,7 +65,7 @@ body, table, div, p, dl
 /* Footer. */
 
 /* Bottom left label. */
-span.qmi
+.qmi
 {
   float:left;
   text-align: left;
@@ -89,6 +89,7 @@ hr.footer
 {
   height: 1px;
 }
+
 
 /* Not used. */
 /*
@@ -644,7 +645,7 @@ dl.reflist dd {
 /* for the tree view */
 
 .ftvtree {
-        font-family: sans-serif;
+        /*font-family: sans-serif;*/
         margin: 0px;
 }
 
@@ -848,20 +849,18 @@ table.fieldtable {
 {
   text-decoration: underline;
 }
-
+*/
 .navpath li.footer
 {
         list-style-type:none;
         float:right;
-        padding-left:10px;
-        padding-right:15px;
+        padding-bottom: 6px;
         background-image:none;
         background-repeat:no-repeat;
         background-position:right;
-        color:#364D7C;
         font-size: 8pt;
 }
-*/
+
 
 div.summary
 {
